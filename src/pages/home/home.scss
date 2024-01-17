@@ -1,3 +1,29 @@
-.home{
-  background-color: red;
+@import "../../styles/variables.scss";
+
+.home {
+
+  display: grid; // using grid system
+  gap: 20px;
+  grid-template-columns: repeat(4, 1fr); // use with display: grid to create columns and size them
+  grid-auto-rows: minmax(180px, auto);
+
+
+  .box {
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid $soft-bg;
+  }
+
+  .box1 {
+    grid-column: span 1; // change the width or height of a child element of a grid parent container
+    grid-row: span 3;
+  }
+  .box4 {
+    grid-column: span 1; // change the width or height of a child element of a grid parent container
+    grid-row: span 3;
+  }
+  .box7 {
+    grid-column: span 2; // change the width or height of a child element of a grid parent container
+    grid-row: span 2;
+  }
 }
