@@ -27,7 +27,7 @@ const Add = (props: Props) => {
               <input type={column.type} placeholder={column.field} />
             </div>
           ))}
-          <button>Add User</button>
+          <button>{`Add ${props.slug}`}</button>
         </form>
       </div>
     </div>
