@@ -11,6 +11,8 @@ This time though, I went for a little more challenge and realized one with React
 
 ## Deployed Project Link
 
+- [Responsive Admin panel](https://react-responsive-admin-panel.netlify.app/)
+
 ---
 
 ## Key Takeaways:
