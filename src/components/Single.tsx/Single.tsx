@@ -1,6 +1,6 @@
-import { CartesianGrid, Legend, Line, LineChart, ResponsiveContainer, XAxis, YAxis } from "recharts"
+import { Legend, Line, LineChart, ResponsiveContainer, XAxis, YAxis } from "recharts"
 import "./single.scss"
-import { Tooltip } from "@mui/material"
+// import { Tooltip } from "@mui/material"
 
 type Props = {
   id: number;
@@ -59,7 +59,7 @@ const Single = (props: Props) => {
                 >
                   <XAxis dataKey="name" />
                   <YAxis />
-                  <Tooltip />
+                  {/* <Tooltip /> */}
                   <Legend />
                   {props.chart.dataKeys.map(dataKey => (
                     <Line type="monotone" dataKey={dataKey.name} stroke={dataKey.color} />
