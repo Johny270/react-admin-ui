@@ -56,7 +56,7 @@ in high-demand on the market.<br>
 
   2. TypeScript
 
-    - Nothing really to be proud of but a little exposure to TypeScript. However I found it to be kind of similar to JavaScript in many ways. I'm interested to dive deeper into it in the future.<br>
+    - Nothing really to be proud of but a little exposure to TypeScript. However I found it to be kind of similar to JavaScript in many ways. I'm interested to dive deeper into it in the future.<br>  
 
   3. Material UI
 
@@ -92,6 +92,7 @@ in high-demand on the market.<br>
     And you cannot find better documentation than the official one. I will use it again in the future for grid and forms. Learn more about how to set up rows and columns for a MUI data grid [here](https://mui.com/x/react-data-grid/).<br>
 
     4. Recharts
+
       - Integrate interactive charts to the application to visualize data in a more interesting and meaningful and descriptive way.<br>
 
 - State Management Using React.
