@@ -1,4 +1,4 @@
-import { DataGrid, GridColDef, GridRowsProp, GridToolbar } from "@mui/x-data-grid"
+import { DataGrid, GridColDef, GridToolbar } from "@mui/x-data-grid"
 import "./dataTable.scss"
 import { Link } from "react-router-dom"
 
