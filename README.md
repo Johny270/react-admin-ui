@@ -16,7 +16,9 @@ This time though, I went for a little more challenge and realized one with React
 ## Key Takeaways:
 - First thing, this project was a good way to start exploring some technologies I was not familiar with and that are
 in high-demand on the market
+
   1. Sass / Scss
+
     - I learned how to define variables, so that you can later use those values across all your css files, making it a lot more easier
     - I also learned how to write a responsive application with scss, defining my breakpoints effectively
     ```
@@ -37,7 +39,7 @@ in high-demand on the market
         }
       }
     ```
-     and conditionally rendering what need to be depending on the viewport size.
+     and conditionally rendering what needs to be depending on the viewport size.
     ```
       .email {
         font-size: 12px;
@@ -50,40 +52,50 @@ in high-demand on the market
         }
       }
     ```
-    - I also realized how easy it is to use sass/scss over pure CSS, just taking advantage of the power of indentation to define your rules, thus setting less classes on element
+    - I also realized how easy it is to use sass/scss over pure CSS, just taking advantage of the power of indentation to define your rules, thus setting less classes on HTML elements.
+
   2. TypeScript
-    - Nothing really to be proud of, a little exposure to typescript. However I found it to be kind of similar to Javascript in many ways. I'm interested to dive deeper into it in the future.
+
+    - Nothing really to be proud of but a little exposure to TypeScript. However I found it to be kind of similar to JavaScript in many ways. I'm interested to dive deeper into it in the future.
+
   3. Material UI
-    - I discovered this incredibly useful library, using it to integrate interactive data grid and charts to the application. The tool itself is very easy to install and set up in a file for use, 
+
+    - I discovered this incredibly useful library, using it to integrate interactive data grids to the application. The tool itself is very easy to install and set up in a file for use, 
     ```
+      // If you are using npm
       npm i @mui/material @emotion/react @emotion/styled
       npm install @material-ui/core
-      import { Area, AreaChart, CartesianGrid, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts" 
+
+      // Import the proper element into the file
+      import { DataGrid, GridColDef, GridValueGetterParams } from '@mui/x-data-grid';
     ```
     and use, 
     ```
-      <ResponsiveContainer width="99%" height={300}>
-        <PieChart>
-          <Tooltip 
-            contentStyle={{ background: "white", borderRadius: "5px"}}
-          />
-          <Pie
-            data={data}
-            innerRadius={"70%"}
-            outerRadius={"90%"}
-            fill="#8884d8"
-            paddingAngle={5}
-            dataKey="value"
-          >
-            {data.map((item) => (
-              <Cell key={item.name} fill={item.color} />
-            ))}
-          </Pie>
-        </PieChart>
-      </ResponsiveContainer>
+      // You need first to define the shape of your rows and coloumns. Learn more at the link below.
+      <Box sx={{ height: 400, width: '100%' }}>
+        <DataGrid
+          rows={rows}
+          columns={columns}
+          initialState={{
+            pagination: {
+              paginationModel: {
+                pageSize: 5,
+              },
+            },
+          }}
+          pageSizeOptions={[5]}
+          checkboxSelection
+          disableRowSelectionOnClick
+        />
+      </Box>
     ```
-    And you cannot find better documentation than the official one. I will use it again in the future for grid and forms.
+    And you cannot find better documentation than the official one. I will use it again in the future for grid and forms. Learn more about how to set up rows and columns for a MUI data grid [here](https://mui.com/x/react-data-grid/).
+
+    4. Recharts
+      - Integrate interactive charts to the application to visualize data in a more interesting and meaningful and descriptive way.
+
 - State Management Using React.
+
 
 ---
 
@@ -94,15 +106,17 @@ in high-demand on the market
 - Sass / Scss
 - HTML
 - CSS
+- Recharts
 
 ---
 
 ## What to expect next?
-Coming next, I plan to explore more of the technologies I briefly touched on this project. Also the goal is to always keep an eye on what the market request and maintain myself up-to-date to the best of my abilities.
-[] - Build a desktop application using C# and ASP.net with data coming from a SQL database.
-[] - A mobile application built with React and C#
-[] - A fullstack web application using React, Next.js, tailwind and MongoDB
-[] - Dive into devOps terminologies
+Coming next, I plan to explore more of the technologies I briefly touched on this project. Also the goal is to always keep an eye on what the market requests and maintain myself up-to-date to the best of my abilities.
+
+- [] Build a desktop application using C# and ASP.net with data coming from a SQL database.
+- [] A mobile application built with React and C#
+- [] A fullstack web application using React, Next.js, tailwind and MongoDB
+- [] Dive into devOps terminologies
 
 ---
 
