@@ -15,7 +15,7 @@ This time though, I went for a little more challenge and realized one with React
 
 ## Key Takeaways:
 - First thing, this project was a good way to start exploring some technologies I was not familiar with and that are
-in high-demand on the market
+in high-demand on the market.<br>
 
   1. Sass / Scss
 
@@ -52,11 +52,11 @@ in high-demand on the market
         }
       }
     ```
-    - I also realized how easy it is to use sass/scss over pure CSS, just taking advantage of the power of indentation to define your rules, thus setting less classes on HTML elements.
+    - I also realized how easy it is to use sass/scss over pure CSS, just taking advantage of the power of indentation to define your rules, thus setting less classes on HTML elements.<br>
 
   2. TypeScript
 
-    - Nothing really to be proud of but a little exposure to TypeScript. However I found it to be kind of similar to JavaScript in many ways. I'm interested to dive deeper into it in the future.
+    - Nothing really to be proud of but a little exposure to TypeScript. However I found it to be kind of similar to JavaScript in many ways. I'm interested to dive deeper into it in the future.<br>
 
   3. Material UI
 
@@ -89,10 +89,10 @@ in high-demand on the market
         />
       </Box>
     ```
-    And you cannot find better documentation than the official one. I will use it again in the future for grid and forms. Learn more about how to set up rows and columns for a MUI data grid [here](https://mui.com/x/react-data-grid/).
+    And you cannot find better documentation than the official one. I will use it again in the future for grid and forms. Learn more about how to set up rows and columns for a MUI data grid [here](https://mui.com/x/react-data-grid/).<br>
 
     4. Recharts
-      - Integrate interactive charts to the application to visualize data in a more interesting and meaningful and descriptive way.
+      - Integrate interactive charts to the application to visualize data in a more interesting and meaningful and descriptive way.<br>
 
 - State Management Using React.
 
